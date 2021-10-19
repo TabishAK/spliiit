@@ -1,0 +1,32 @@
+.payment-info-text {
+  margin-right: 30px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 18px;
+  margin-left: 30px;
+}
+
+.payment-history-heading {
+  font-size: 20px;
+  padding: 14px 30px;
+  margin: 0;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+.btn-arrow {
+  background: aliceblue;
+  border-radius: 100%;
+}
+
+.payment-history {
+  display: flex; /* establish flex container */
+  flex-direction: row; /* default value; can be omitted */
+  flex-wrap: nowrap; /* default value; can be omitted */
+  justify-content: space-between;
+}
+
+.date-counter {
+  margin-top: 22px;
+}
